@@ -39,12 +39,15 @@ https://templatemo.com/tm-584-pod-talk
 </head>
 
 <body>
-
+<?php
+  $section = (isset($section)) ? $section : 'home';
+  require_once $section;
+  ?>
     <main>
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand me-lg-5 me-0" href="index.html">
+                <a class="navbar-brand me-lg-5 me-0" href="nosotros.php">
                     <img src="images/craftverse-logo-1.png" class="logo-image img-fluid" alt="templatemo pod talk">
                 </a>
 
