@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-04-2023 a las 18:57:49
+-- Tiempo de generación: 28-04-2023 a las 21:08:32
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `crafteos` (
-  `id` int(11) NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL,
   `crafteo` varchar(200) NOT NULL,
   `espacio_crafteo` int(11) NOT NULL,
   `materiales` varchar(2000) NOT NULL
@@ -61,6 +61,7 @@ INSERT INTO `roles` (`id`, `rol`) VALUES
 
 CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
+  `nombre_usuario` varchar(300) NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `apellido` varchar(100) NOT NULL,
   `email` varchar(200) NOT NULL,
@@ -101,7 +102,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `crafteos`
 --
 ALTER TABLE `crafteos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `roles`
