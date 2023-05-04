@@ -29,6 +29,8 @@
 
     <link href="css/templatemo-pod-talk.css" rel="stylesheet">
 
+    <link href="css/styles.css" rel="stylesheet">
+
     <!--
 
 TemplateMo 584 Pod Talk
@@ -91,7 +93,7 @@ https://templatemo.com/tm-584-pod-talk
                     </ul>
 
                     <div class="ms-4">
-                        <a href="#section_3" class="btn custom-btn custom-border-btn smoothscroll">Get started</a>
+                        <a href="registrarse.php" class="btn custom-btn custom-border-btn smoothscroll">Registrarse</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +103,7 @@ https://templatemo.com/tm-584-pod-talk
           </main>
           <?php
   $section = (isset($section)) ? $section : 'home';
-  require_once $section;
+  require_once $section . '.php';
   ?>
 
     <footer class="site-footer">
