@@ -89,7 +89,7 @@ https://templatemo.com/tm-584-pod-talk
                     </ul>
 
                     <div class="ms-4">
-                        <a href="#section_3" class="btn custom-btn custom-border-btn smoothscroll">Get started</a>
+                        <a href="login.php" class="btn custom-btn custom-border-btn smoothscroll">Iniciar Sesion</a>
                     </div>
                 </div>
             </div>

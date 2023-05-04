@@ -1,4 +1,4 @@
 <?php
 
 
-require_once "vistas/login.php";
+require_once "views/login.php";
