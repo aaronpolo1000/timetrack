@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="css/templatemo-pod-talk.css">
    
-
+    <link rel="stylesheet" href="css/style.css">
 
     <!--
 
