@@ -11,6 +11,7 @@
     <title>Pod Talk - Free Bootstrap 5 CSS Template</title>
 
     <!-- CSS FILES -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +28,9 @@
 
     <link rel="stylesheet" href="css/templatemo-pod-talk.css">
    
+ 
 
+    <link href="css/styles.css" rel="stylesheet">
 
     <!--
 
@@ -89,17 +92,28 @@ https://templatemo.com/tm-584-pod-talk
                     </ul>
 
                     <div class="ms-4">
-                        <a href="login.php" class="btn custom-btn custom-border-btn smoothscroll">Iniciar Sesion</a>
+
+
+
+                        <a href="registrarse.php" class="btn custom-btn custom-border-btn smoothscroll">Registrarse</a>
+
                     </div>
+                    <div class="ms-4">
+                          <a href="login.php" class="btn custom-btn custom-border-btn smoothscroll">Iniciar Sesion</a>
+                     </div>
                 </div>
             </div>
         </nav>
-        <?php
-        $section = (isset($section)) ? $section : 'home';
-        require_once $section . ".php";
-        ?>
+  
 
     </main>
+
+
+          </main>
+          <?php
+  $section = (isset($section)) ? $section : 'home';
+  require_once $section . '.php';
+  ?>
 
 
     <footer class="site-footer">
