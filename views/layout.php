@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk - Free Bootstrap 5 CSS Template</title>
+    <title>CraftVerse - La mejor fuente de informacion de minecraft</title>
 
     <!-- CSS FILES -->
 
@@ -69,7 +69,7 @@ https://templatemo.com/tm-584-pod-talk
                     <ul class="navbar-nav ms-lg-auto">
                         <li class="nav-item">
                             
-                     <a href="home.php" class="nav-link active">Home</a>
+                     <a href="home.php" class="nav-link active">Inicio</a>
                         </li>
 
                         <li class="nav-item">
@@ -87,7 +87,7 @@ https://templatemo.com/tm-584-pod-talk
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contacto</a>
                         </li>
                     </ul>
 
@@ -122,26 +122,26 @@ https://templatemo.com/tm-584-pod-talk
 
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="subscribe-form-wrap">
-                        <h6>Subscribe. Every weekly.</h6>
+                        <h6>Subscribete para recibir mas informacion</h6>
 
                         <form class="custom-form subscribe-form" action="#" method="get" role="form">
                             <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required="">
 
                             <div class="col-lg-12 col-12">
-                                <button type="submit" class="form-control" id="submit">Subscribe</button>
+                                <button type="submit" class="form-control" id="submit">Suscribite</button>
                             </div>
                         </form>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
-                    <h6 class="site-footer-title mb-3">Contact</h6>
+                    <h6 class="site-footer-title mb-3">Contacto</h6>
 
                     <p class="mb-2"><strong class="d-inline me-2">Phone:</strong> 010-020-0340</p>
 
                     <p>
                         <strong class="d-inline me-2">Email:</strong>
-                        <a href="#">inquiry@pod.co</a>
+                        <a href="#">CraftVerse@gmail.com</a>
                     </p>
                 </div>
 
@@ -160,7 +160,7 @@ https://templatemo.com/tm-584-pod-talk
                         </div>
                     </div>
 
-                    <h6 class="site-footer-title mb-3">Social</h6>
+                    <h6 class="site-footer-title mb-3">Redes Sociales</h6>
 
                     <ul class="social-icon">
                         <li class="social-icon-item">
@@ -185,7 +185,7 @@ https://templatemo.com/tm-584-pod-talk
 
                 <div class="col-lg-2 col-md-3 col-12">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/craftverse-logo.png" class="logo-image img-fluid" alt="templatemo pod talk">
+                        <img src="images/logo-craftverse-2.png" class="logo-image img-fluid" alt="templatemo pod talk">
                     </a>
                 </div>
 
@@ -204,16 +204,16 @@ https://templatemo.com/tm-584-pod-talk
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Contact Us</a>
+                            <a href="#" class="site-footer-link">Contacto</a>
                         </li>
                         <li class="site-footer-link-item">
-                            <a href="politica_priv.php" class="site-footer-link">Politica priv</a>
+                            <a href="politica_priv.php" class="site-footer-link">Politicas de Privacidad</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-12">
-                    <p class="copyright-text mb-0">Copyright © 2036 Talk Pod Company
+                    <p class="copyright-text mb-0">Copyright © 2036 CraftVerse
                         <br><br>
                         Design: <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">TemplateMo</a>
                     </p> Distribution: <a rel="nofollow" href="https://themewagon.com" target="_blank">ThemeWagon</a>

@@ -282,7 +282,8 @@ main {
 }
 
 .navbar .logo-image {
-  width: 100px;
+  width: 200px;
+  height: 200px:
 }
 
 .logo-image {
@@ -775,7 +776,7 @@ main {
   margin: auto;
   width: 100%;
   height: 210px;
-  transition: all 0.3s;
+  transition: all 0.3s;g
 }
 
 .custom-block-overlay:hover .custom-block-image {
@@ -1003,7 +1004,7 @@ main {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/templatemo-wave-footer.jpg'), linear-gradient(#FFFFFF, #348CD2);
+  background-image: url('../images/noche-minecraft.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
