@@ -1,34 +1,53 @@
-<link rel="stylesheet" href="style.css">
-<section class="hero-section">
-            <div class="container">
-</div>
-</section>    
-            <!-- multistep form -->    
-<form id="msform">
-  <!-- progressbar -->
-  <ul id="progressbar">
-    <li class="active">Crear tu cuenta</li>
-    <li>Detalles Personales</li>
-  </ul>
-  <!-- fieldsets -->
-  <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
-  <script src="js/register.js"></script>
-  <fieldset>
-    <h2 class="fs-title">Crea tu cuenta</h2>
-    <h3 class="fs-subtitle">Primer paso</h3>
-    <input type="text" name="email" placeholder="Email" />
-    <input type="password" name="pass" placeholder="Password" />
-    <input type="password" name="cpass" placeholder="Confirm Password" />
-    <input type="button" name="next" class="next action-button" value="Next" />
-  </fieldset>
+<link rel="stylesheet" href="css/registrarse.css">
+<section class="vh-100 bg-image"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+            <img style="height:120px; width:120px; margin-left:40%;" src="images/iconuser.png" alt="">
+              <h3 style="margin-top:20px;" class=" text-center mb-5">¡Registrate en TimeTrack!</h3>
 
-  <fieldset>
-    <h2 class="fs-title">Detalles Personales</h2>
-    <input type="text" name="fname" placeholder="First Name" />
-    <input type="text" name="lname" placeholder="Last Name" />
-    <input type="text" name="phone" placeholder="Phone" />
-    <textarea name="address" placeholder="Address"></textarea>
-    <input type="button" name="previous" class="previous action-button" value="Previous" />
-    <a href="https://twitter.com/GoktepeAtakan" class="submit action-button" target="_top">Submit</a>
-  </fieldset>
-</form>  
+              <form>
+
+              <div style="margin-top:-30px;" class="form-outline mb-4">
+                <label class="form-label" for="form3Example1cg">Nombre de usuario</label>
+                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                  
+                </div>
+
+                <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3cg">E-mail</label>
+                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                </div>
+
+                <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example4cg">Contraseña</label>
+                  <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                </div>
+
+                <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example4cdg">Repetir contraseña</label>
+                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                  <br>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="button"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Enviar</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0">¿Ya tenés cuenta? <a href="#!"
+                    class="fw-bold text-body"><u>¡Inicia sesión!</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

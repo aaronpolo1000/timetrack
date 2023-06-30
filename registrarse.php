@@ -1,4 +1,4 @@
 <?php
 
-$section = "registrarse"; 
+$section = "views/registrarse.php"; 
 require_once "views/layout.php";
