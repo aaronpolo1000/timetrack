@@ -23,6 +23,15 @@ $('#filtro').load('listaTipos.php')
 
 </script>
 <script>
+ 
+
+
+
+
+
+
+
+
     function guardarTipo(){
 var tipo=$('#txtTipo').val();
 var curso=$('#curso1').val();

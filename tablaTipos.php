@@ -23,6 +23,7 @@ if(!$conn){
         . mysqli_connect_error());
 }
 
+   
 if(isset($_POST['sql'])){
 $sql= $_POST['sql'];}
 else{
