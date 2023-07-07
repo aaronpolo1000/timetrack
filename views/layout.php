@@ -25,10 +25,7 @@
   require_once $section;
   ?>
 
-  <div id="mostrar"><?php 
-
-
-?></div>
+ 
 </body>
 </html>
 

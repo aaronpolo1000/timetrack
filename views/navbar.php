@@ -18,11 +18,14 @@
    
     </ul>
     <form  class="form-inline my-2 my-lg-0">
-      <input name="buscar" class="form-control mr-sm-2" id="buscar" type="search" placeholder="Search" onkeyup="buscar_ajax(this.value)" aria-label="Search">
-      <button   style="background-color:#F81FF0; margin-right:100px;"class="btn btn-outline my-2 my-sm-0" type="submit" onclick="buscar()">Search</button>
+      <?php $enlace_actual = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; 
+      $buscainput= '<input name="buscar" class="form-control mr-sm-2" id="buscar" type="search" placeholder="Search" onkeyup="buscar_ajax(this.value)" aria-label="Search">' ;
+      if($enlace_actual!= 'http://localhost/timetrack/index.php'){echo $buscainput;}?>
+    <a href="busqueda.php">  <button   style="background-color:#F81FF0; margin-right:100px;"class="btn btn-outline my-2 my-sm-0" type="button" onclick="buscar_ajax(this.value)">Search</button></a>
+   
       <a href="iniciarsesion.php">      <button style="background-color:#0091ED; margin-right:20px;" type="button" class="btn btn">Iniciar Sesion</button></a>
       <a href="registrarse.php"> <button style="background-color:#0066ED;margin-right:35px;" type="button" class="btn btn">Registrarse</button></a>
-    </form>
+   </form>
   </div>
 </nav>
 <script> function buscar_ajax(cadena){
