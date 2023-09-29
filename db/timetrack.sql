@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-06-2023 a las 14:54:37
--- Versión del servidor: 10.4.27-MariaDB
--- Versión de PHP: 8.2.0
+-- Tiempo de generación: 29-09-2023 a las 13:03:55
+-- Versión del servidor: 10.4.28-MariaDB
+-- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,7 +32,9 @@ CREATE TABLE `alumno` (
   `nombre` varchar(100) NOT NULL,
   `apellido` varchar(100) NOT NULL,
   `edad` int(100) NOT NULL,
-  `id_curso` int(100) NOT NULL
+  `id_curso` int(100) NOT NULL,
+  `gmail` varchar(200) NOT NULL,
+  `contraseña` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -81,23 +83,61 @@ CREATE TABLE `profesores` (
   `id` int(11) NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `apellido` varchar(100) NOT NULL,
-  `id_curso` int(100) NOT NULL
+  `id_curso` int(100) NOT NULL,
+  `gmail` varchar(200) NOT NULL,
+  `contraseña` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `profesores`
 --
 
-INSERT INTO `profesores` (`id`, `nombre`, `apellido`, `id_curso`) VALUES
-(1, 'aaron', '', 3),
-(2, 'aaa', '', 3),
-(3, 'asda', '', 3),
-(4, '1', '', 4),
-(5, '3', '', 2),
-(6, 'asdads', '', 1),
-(7, 'aaa', '', 3),
-(8, 'luca', '', 0),
-(9, 'asdad', '', 1);
+INSERT INTO `profesores` (`id`, `nombre`, `apellido`, `id_curso`, `gmail`, `contraseña`) VALUES
+(1, 'aaron', '', 3, '', ''),
+(2, 'aaa', '', 3, '', ''),
+(3, 'asda', '', 3, '', ''),
+(5, '3', '', 3, '', ''),
+(7, 'aaa', '', 3, '', ''),
+(8, 'luca', '', 0, '', ''),
+(10, 'asdadsdsaddddd', '', 5, '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `roles`
+--
+
+CREATE TABLE `roles` (
+  `id` int(11) NOT NULL,
+  `rol` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `roles`
+--
+
+INSERT INTO `roles` (`id`, `rol`) VALUES
+(1, 'Usuario'),
+(2, 'Administrador');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `nombre_usuario` varchar(300) NOT NULL,
+  `nombre` varchar(100) NOT NULL,
+  `apellido` varchar(100) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `email_verificado` varchar(10) NOT NULL,
+  `contraseña` varchar(200) NOT NULL,
+  `fecha_alta` date NOT NULL,
+  `fecha_baja` int(11) NOT NULL,
+  `rol` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Índices para tablas volcadas
@@ -128,6 +168,18 @@ ALTER TABLE `profesores`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -153,7 +205,19 @@ ALTER TABLE `cursos`
 -- AUTO_INCREMENT de la tabla `profesores`
 --
 ALTER TABLE `profesores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT de la tabla `roles`
+--
+ALTER TABLE `roles`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
