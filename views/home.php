@@ -15,173 +15,173 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>    <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td<input type="text" style="width: 100%;"></input>></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>    <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>    <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>    
     <th scope="row">1</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
       
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td ></td>
-      <td></td>
-      <td></td>
-      <td ></td>
-      <td></td>
-      <td></td>
+      <td ><input type="text" style="width: 100%"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%;"></input></td>
+      <td ><input type="text" style="width: 100%;"></input></td>
+      <td><input type="text" style="width: 100%"></input></td>
+      <td><input type="text" style="width: 100%"></input></td>
       
     </tr>
