@@ -32,45 +32,39 @@ if (isset($_POST['recordar']) &&  $_POST['recordar'] == 'SI') {
 				<div class="d-flex justify-content-center">
 					<div class="brand_logo_container">
 					<a href="index.php"><img src="images/craftverse-logo.png" class="brand_logo" alt="Logo"></a>	
+				</div>
+			</div>
+			<div class="d-flex justify-content-center form_container">
+				<form method="POST" action="exelogin">
+					<div class="input-group mb-3">
+						<div class="input-group-append">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input required type="text" class="form-control input_user" value="<?php echo (isset($_COOKIE['usu'])) ? $_COOKIE['usu'] : ''; ?>" name="usu" placeholder="Usuario">
 					</div>
-				</div>
-				<div class="d-flex justify-content-center form_container">
-					<form>
-						<div class="input-group mb-3">
-							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-user"></i></span>
-							</div>
-                            <input required type="text" class="form-control input_user" value="<?php echo (isset($_COOKIE['usu'])) ? $_COOKIE['usu'] : ''; ?>" name="usu" placeholder="Usuario">
+					<div class="input-group mb-2">
+						<div class="input-group-append">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<div class="input-group mb-2">
-							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-key"></i></span>
-							</div>
-                            <input required type="password" class="form-control input_pass" placeholder="Contraseña" value="<?php echo (isset($_COOKIE['contra'])) ? $_COOKIE['contra'] : ''; ?>" name="contra">
-						</div>
-						<div class="form-group">
-							<div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customControlInline" name="recordar" value="SI" <?php echo (isset($_COOKIE['recordar'])) ? 'checked' : ''; ?>>
-								<label class="custom-control-label" for="customControlInline">Mantener Sesion</label>
-							</div>
-						</div>
-							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="button" class="btn login_btn">Iniciar Sesion</button>
-				   </div>
-					</form>
-				</div>
+						<input required type="password" class="form-control input_pass" placeholder="Contraseña" value="<?php echo (isset($_COOKIE['contra'])) ? $_COOKIE['contra'] : ''; ?>" name="contra">
+					</div>
+						<div class="d-flex justify-content-center mt-3 login_container">
+						<button type="submit" name="button" class="btn login_btn">Iniciar Sesion</button>
+					</div>
+				</form>
+			</div>
 		
-				<div class="mt-4">
-					<div class="d-flex justify-content-center links">
-						¿No tenes cuenta?     <a href="#" class="ml-2">  Registrarse</a>
-					</div>
-					<div class="d-flex justify-content-center links">
-						<a href="#">¿Olvidaste tu contraseña?</a>
-					</div>
-                    <div class="d-flex justify-content-center links">
-						<a href="index.php">Home</a>
-					</div>
+			<div class="mt-4">
+				<div class="d-flex justify-content-center links">
+					<a href="registrarse.php" class="ml-2"> ¿No tenes cuenta? </a>
+				</div>
+				<div class="d-flex justify-content-center links">
+					<a href="#">¿Olvidaste tu contraseña?</a>
+				</div>
+				<div class="d-flex justify-content-center links">
+					<a href="index.php">Home</a>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>

@@ -1,6 +1,4 @@
-
-<section class="vh-100 bg-image"
-  style="css/iniciarsesion.css">
+<section class="vh-100 bg-image" style="css/iniciarsesion.css">
   <link rel="stylesheet" href="css/iniciarsesion.css">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
@@ -11,35 +9,27 @@
             <img style="height:120px; width:120px; margin-left:40%;" src="images/iconuser.png" alt="">
               <h2 style="margin-top:20px;" class=" text-center mb-5">Iniciar sesión</h2>
 
-              <form>
+              <form method="POST" action="exelogin.php">
 
                 <div style="margin-top:-40px;" class="form-outline mb-4">
                   
-                <i class="bi-person-fill"></i><label style="margin-left:10px;" class="form-label" for="form3Example3cg">Usuario</label>  
-                    <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                <i class="bi-person-fill"></i><label style="margin-left:10px;" class="form-label" name="usu" for="form3Example3cg">Usuario</label>  
+                    <input type="text" id="form3Example3cg" class="form-control form-control-lg" />
                     
                 </div>
 
                 <div class="form-outline mb-4">
-                <i class="bi-lock-fill"></i><label style="margin-left:10px;" class="form-label" for="form3Example4cg">Contraseña</label>
+                <i class="bi-lock-fill"></i><label style="margin-left:10px;" class="form-label" name="contra" for="form3Example4cg">Contraseña</label>
                     <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                </div>
-
-                <div class="form-check d-flex justify-content mb-5">
-                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                  <label class="form-check-label" for="form2Example3g">
-                    Recuérdame<a href="#!" class="text-body">
-                  </label>
                 </div>
             
                 <div class="d-flex justify-content-center">
-                  <button type="button"
+                  <button type="submit"
                     class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" >Acceder</button>
                 </div>
 
                 <div class="d-flex justify-content-center">
-                <p class="text-center text-muted mt-5 mb-0">¿No tenés una cuenta?</p>
-                <p style="margin-left:20px;" class="text-center text-muted mt-5 mb-0">¿Se te olvidó tu contraseña? </p>
+                <p class="text-center text-muted mt-5 mb-0"><a href="registrarse.php">¿No tenés una cuenta?</a></p>
                 </div>
 
               </form>
